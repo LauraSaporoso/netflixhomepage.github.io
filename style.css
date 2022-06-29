@@ -1,0 +1,361 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+html {
+  margin: 0;
+  padding: 0;
+}
+body {
+   
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    background-color: #0C0C0C;
+    
+   
+    display:flex;
+    flex-direction:column;
+    min-height:100%;
+    
+   
+
+}
+
+
+@media only screen and (max-device-width: 480px) {
+
+  .background {
+   background-image: url(images/stranger-things.png);
+   height: 570px;
+   background-repeat: no-repeat;
+   background-size: cover;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   width: 100%;
+  }
+  header {
+    display: flex;
+    flex-direction: column;
+    
+  }    
+
+   /*----------------- HEADER LOGO USER MOBILE ---------------*/
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px 20px;
+  }
+  
+  .logo-mobile {
+    width: 22px;
+    height: 40px;
+  }
+
+  .header-right-container{
+    display: flex;
+    align-items: center;
+   
+  }
+  .user-mobile {
+    width: 28px;
+    height: 28px;
+    border-radius: 5px;
+    margin-left: 30px;
+  }
+  .search-icon-mobile {
+    width: 25px;
+    height: 25px;
+  }
+
+
+
+   /*----------------- MENU MOBILE ---------------*/
+   
+   .header-menu-mobile-2 {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 20px;
+   
+   
+   }
+   
+   a {
+    text-decoration:none;
+    color: white;
+    font-weight: 400;
+
+   }
+   .a-menu-mobile {
+    display: flex;
+    padding: 15px 25px;
+    flex-wrap: nowrap;
+    align-items: center;
+    
+   }
+
+   .arrow-down-mobile {
+    margin-left: 10px;
+   }
+   
+
+
+
+    /* --------------PARTE BASSA  IMMAGINE------------*/
+
+    .botton-container-mobile {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+       
+       
+    }
+
+    .list-container-mobile {
+        display: flex;
+        justify-content: space-between;
+        font-size: 13px;
+        margin: 0 20px;
+        
+      
+    }
+
+    .p-circle-mobile {
+        display: flex;
+        align-items: center;
+    }
+
+
+
+
+
+    .tre-buttons-container-mobile {
+        display: flex;
+        justify-content: space-between;
+      margin: 10px 20px;
+      width: 100;
+      padding-top: 10px;
+      align-items: center;
+    }
+
+    .lista-mobile,
+    .info-mobile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 10px;
+        font-weight: 200;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .icon-plus-mobile,
+    .icon-info-mobile {
+        margin-bottom: 5px;
+    }
+
+
+    .button-mobile {
+
+    }
+
+    .riproduci-mobile {
+      padding: 7px 15px;  
+      font-size: 16px;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      border-radius: 5px;
+
+    }
+
+
+
+
+
+  
+
+
+    /* --------------SEZIONE SCELTA FILM/SERIE TV------------*/
+
+
+    /* --------------PRIMA SEZIONE------------*/
+.sezione-homepage {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+ min-width: 100%;
+ 
+  
+
+ 
+}
+    .sezione-scelta {
+      display: flex;
+      flex-direction: column;
+      margin: 10px 10px ;
+      overflow: hidden;
+    
+   
+    }
+
+    h1 {
+      font-size: 20px;
+      margin-bottom: 10px;
+   
+    }
+    
+    .sezione-scroll {
+      display: flex;
+    
+     
+    }
+    .rettangolo-container {
+      min-width: 111px;
+      background-color: white;
+      height: 162px;
+      border-radius: 5px;
+      margin-right: 10px;
+      border: none;
+    }
+
+
+    /* ---- Laura, continua a guardare.. */
+    .ret-with-bar{
+      min-width: 111px;
+      margin-right: 10px;
+    }
+    .ret-bar {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      background-color: #242424;
+      padding: 5px 0;
+      border-radius: 0 0 5px 5px;
+      border-top: 1px solid red;
+      
+      position: relative;
+      
+    }
+    .ret-bar:after {
+ 
+    content:"";
+    display:block;
+    position:absolute;
+    z-index:2;
+    top:-1px;
+    left:50px;
+    right:2px;
+    bottom:0px;
+    border-top:2px solid rgb(119, 119, 119)
+
+    }
+
+    .bar-info,
+    .bar-menu {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+
+    
+    }
+
+    .info-mobile-bar,
+    .menu-mobile-bar {
+      width: 25px;
+      height: 25px;
+    }
+
+
+    
+    .ret-1 {
+     background-image: url(images/img-rettangoli/serietv-1.jpg);
+     background-size: cover;
+     background-repeat: no-repeat;
+    }
+    .ret-2 {
+      background-image: url(images/img-rettangoli/serietv-2.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+     }
+     .ret-3 {
+      background-image: url(images/img-rettangoli/serietv-3.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+     }
+     .ret-4 {
+      background-image: url(images/img-rettangoli/serietv-4.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+     }
+     .ret-5 {
+      background-image: url(images/img-rettangoli/serietv-5.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+     }
+     .ret-6 {
+      background-image: url(images/img-rettangoli/serietv-1.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+     }
+     .ret-7 {
+      background-image: url(images/img-rettangoli/serietv-1.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+     }
+     .ret-8 {
+      background-image: url(images/img-rettangoli/serietv-1.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+     }
+
+
+    /* --------------FOOTER------------*/
+
+    footer {
+     
+     background-color: rgb(14, 14, 14);
+     
+   
+      position: sticky;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+ 
+      
+    }
+
+    .footer-container {
+      display: flex;
+      justify-content: space-between;
+      
+      text-align: center;
+
+     
+      
+     
+    }
+
+    .icon-footer {
+      color: #777777;
+      width: 25px;
+      height: 25px;
+   
+      
+    }
+
+    .icon-container {
+     width: 100%;
+    padding: 5px 0;
+    }
+
+    .p-footer-mobile {
+      color: #777777;
+      font-size: 10px;
+    }
+
+}
