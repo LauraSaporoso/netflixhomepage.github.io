@@ -247,7 +247,7 @@ body {
     display:block;
     position:absolute;
     z-index:2;
-    top:-3px;
+    top:-2.5px;
     left:70px;
     right:0px;
     bottom:0px;
@@ -272,7 +272,7 @@ body {
     display:block;
     position:absolute;
     z-index:2;
-    top:-3px;
+    top:-2.5px;
     left:40px;
     right:0px;
     bottom:0px;
@@ -298,7 +298,7 @@ body {
     display:block;
     position:absolute;
     z-index:2;
-    top:-3px;
+    top:-2.5px;
     left:90px;
     right:0px;
     bottom:0px;
