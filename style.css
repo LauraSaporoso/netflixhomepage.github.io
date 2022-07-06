@@ -31,6 +31,7 @@ body {
    height: 570px;
    background-repeat: no-repeat;
    background-size: cover;
+   background-position: center;
    display: flex;
    flex-direction: column;
    justify-content: space-between;
@@ -235,7 +236,7 @@ body {
       background-color: #242424;
       padding: 5px 0;
       border-radius: 0 0 5px 5px;
-      border-top: 1px solid red;
+      border-top: 2px solid red;
       
       position: relative;
       
@@ -248,7 +249,7 @@ body {
     z-index:2;
     top:-1px;
     left:50px;
-    right:2px;
+    right:0px;
     bottom:0px;
     border-top:2px solid rgb(119, 119, 119)
 
@@ -312,6 +313,97 @@ body {
       background-size: cover;
       background-repeat: no-repeat;
      }
+     /* ----------------------- immagini serie 2 --------------------*/
+
+     .sez-2-ret-1 {
+      background-image: url(images/img-rettangoli/sez-2-ret-1.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+     }
+
+     .sez-2-ret-2 {
+      background-image: url(images/img-rettangoli/sez-2-ret-2.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+     }
+
+     .sez-2-ret-3 {
+      background-image: url(images/img-rettangoli/sez-2-ret-3.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+     }
+     /* ----------------------- immagini serie 4 --------------------*/
+
+     .sez-4-ret-1 {
+      background-image: url(images/img-rettangoli/sez-4-ret-1.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+     }
+
+     .sez-4-ret-2 {
+      background-image: url(images/img-rettangoli/sez-4-ret-2.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+     }
+
+     .sez-4-ret-3 {
+      background-image: url(images/img-rettangoli/sez-4-ret-3.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+     }
+
+         /* ----------------------- immagini TOP 10 SERIE TV --------------------*/
+     .ret-1-top {
+      background-image: url(images/img-rettangoli/top-1.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+     }
+     .ret-2-top {
+      background-image: url(images/img-rettangoli/top-2.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+     }
+     .ret-3-top {
+      background-image: url(images/img-rettangoli/top-3.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+     }
+
+/* ----------------------- immagini serie 4 --------------------*/
+
+    /* -----------------------TOP 10 SERIE TV --------------------*/
+
+    .top {
+      display: flex;
+      position: relative;
+      justify-content: flex-end;
+      min-width: 140px;
+      height: 162px ;
+
+      box-shadow: 10px 0px 10px 1px #111111;
+   
+    }
+
+    .top-1 {
+      z-index: 10;
+    }
+    .top-2 {
+      z-index: 9;
+    }
+ .top-3 {
+  z-index: 8;
+ }
+    .ret-top {
+      margin-right: 0;
+
+    }
+
+    .icon-number {
+      position: absolute;
+      width: 60px;
+      left: 0;
+      bottom: 1px;
+    }
 
 
     /* --------------FOOTER------------*/
@@ -326,7 +418,7 @@ body {
   bottom: 0;
   width: 100%;
  
-      
+      z-index: 100;
     }
 
     .footer-container {
